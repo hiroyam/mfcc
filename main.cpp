@@ -26,7 +26,7 @@ void read(std::string fn, vec_t &data) {
     wav::header   header;
     std::ifstream ifs(fn, std::ios::in | std::ios::binary);
     if (!ifs) {
-        throw std::runtime_error(format_str("failed to open %s", fn));
+        throw std::runtime_error(format_str("failed to open %s", fn.c_str()));
     }
 
     ifs.read((char *)&header, sizeof(header));
