@@ -36,7 +36,7 @@ Calculate Mel-Frequency Cepstrum Coefficients from .wav file
 ##### 対数を取って
 ![](https://github.com/hiroyam/mfcc/blob/master/images/log_spectrum.png)
 
-##### 離散コサイン変換でケプストラム領域に移す
+##### 離散コサイン変換（DCT-II）でケプストラム領域に移す
 ![](https://github.com/hiroyam/mfcc/blob/master/images/mel_cepstrum.png)
 
 ##### リフタリングで定常成分と高次成分を除去してMFCCを得る
