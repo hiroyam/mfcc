@@ -2,8 +2,8 @@ all: main
 
 main:
 	$(CXX) main.cpp -std=c++11 -Wall -O3
-	# ./a.exe
-	# gnuplot plot
+# ./a.exe
+# gnuplot plot
 
 # cat a.wav >> /dev/dsp
 
