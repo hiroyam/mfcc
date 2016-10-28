@@ -209,6 +209,10 @@ int main(int argc, char *argv[]) {
         // 音声データを読み込む
         wav::read("_a.wav", raw);
 
+        // リサイズする
+        const int N = 1024;
+        raw.resize(N);
+
         // プリエンファシスをかけて高音を強調する
         wav::pre_emphasis(raw);
 
