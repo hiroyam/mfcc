@@ -207,7 +207,7 @@ int main(int argc, char *argv[]) {
         vec_t raw;
 
         // 音声データを読み込む
-        wav::read("_a.wav", raw);
+        wav::read("a.wav", raw);
 
         // リサイズする
         const int N = 1024;
@@ -233,7 +233,7 @@ int main(int argc, char *argv[]) {
         const int NYQ = FRQ / 2;
         amp.resize(NYQ);
 
-        // メルフィルタバンクをかける
+        // メルフィルタバンクと内積をとって次元を減らす
         const int DIM = 20;
         vec_t     mel_x(DIM);
         vec_t     mel_y(DIM);
