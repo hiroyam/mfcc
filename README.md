@@ -12,7 +12,7 @@ Calculate Mel-Frequency Cepstrum Coefficients from .wav file
 
 #### アルゴリズムの概要
 
-##### データをロードして
+##### データをロードしてノーマライズして
 ![](https://github.com/hiroyam/mfcc/blob/master/images/resize.png)
 
 ##### プリエンファシスフィルタをかける
