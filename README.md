@@ -21,7 +21,7 @@ Calculate Mel-Frequency Cepstrum Coefficients from .wav file
 ##### ハニング窓をかけて
 ![](https://github.com/hiroyam/mfcc/blob/master/images/window_hanning.png)
 
-##### フーリエ変換して振幅スペクトルを計算して
+##### フーリエ変換して振幅スペクトルを計算する
 ![](https://github.com/hiroyam/mfcc/blob/master/images/amplitude.png)
 
 ##### ナイキスト周波数でカットする
@@ -33,7 +33,7 @@ Calculate Mel-Frequency Cepstrum Coefficients from .wav file
 ##### 振幅スペクトルとメルフィルタバンクの相関をとる
 ![](https://github.com/hiroyam/mfcc/blob/master/images/mel.png)
 
-##### 対数を取って
+##### 対数をとって
 ![](https://github.com/hiroyam/mfcc/blob/master/images/log_spectrum.png)
 
 ##### 離散コサイン変換（DCT-II）でケプストラムにする
