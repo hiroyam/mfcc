@@ -8,7 +8,7 @@ Calculate Mel-Frequency Cepstrum Coefficients from .wav file
 
 #### これは何？
 
-音色の特徴量であるメルケプストラムをwavファイルから計算するコードです。
+音色の特徴量であるメルケプストラムをwavファイルから計算するコードです。C++によるフルスクラッチです。
 
 #### アルゴリズムの概要
 
